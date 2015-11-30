@@ -41,7 +41,7 @@ class Shell {
 
     /**
      * Prints error
-     * @param type $e
+     * @param string $e
      */
     public function printError($e) {
         echo "\n\n===============================ERROR===============================\n\n";
@@ -51,7 +51,7 @@ class Shell {
 
     /**
      * Prints success
-     * @param type $e
+     * @param string $e
      */
    public function printSuccess($e) {
         echo "\n\n===============================SUCCESS===============================\n\n";
