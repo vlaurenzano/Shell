@@ -7,7 +7,7 @@ class Shell {
 
     /**
      * Get confirmation
-     * @param type $message
+     * @param string $message
      * @return boolean
      */
     public function confirm($message, $quitOnFalse = TRUE) {
@@ -23,8 +23,8 @@ class Shell {
 
     /**
      * Accepts user input
-     * @param type $prompt
-     * @param type $quitOnFail
+     * @param string $prompt
+     * @param bool $quitOnFail
      * @return string
      */
     public function acceptInput($prompt, $quitOnFail = TRUE) {
