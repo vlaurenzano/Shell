@@ -11,7 +11,7 @@ class Shell {
      * @return boolean
      */
     public function confirm($message, $quitOnFalse = TRUE) {
-        $confirm = accept_input($message);
+        $confirm = $this->acceptInput($message);
         if ($confirm === 'y' || $confirm === 'yes') {
             return true;
         }
